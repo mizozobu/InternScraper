@@ -1,0 +1,1 @@
+﻿=IF(ISNUMBER(SEARCH("日前",[@[Pulilshed On]])),2,INT(SUBSTITUTE(SUBSTITUTE([@[Pulilshed On]],"日前",""),"ヶ月前","")))

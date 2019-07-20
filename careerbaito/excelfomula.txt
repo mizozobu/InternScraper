@@ -1,0 +1,1 @@
+=IFERROR(INT(MID(SUBSTITUTE([@Wage],",",""),FIND("‹‹",[@Wage])+1,4)),[@Wage])
